@@ -1,4 +1,4 @@
-angular.module("reportApp",[])
+angular.module("reportApp",['ngAnimate', 'ngSanitize', 'ui.bootstrap'])
     .controller('reportController', function($scope){
         $scope.reportList = [
             {name:"Report1", type:"A", owner:"M1"},
